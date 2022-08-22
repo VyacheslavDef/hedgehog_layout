@@ -37,7 +37,7 @@ section {
   width: $w;
   height: $h;
   background: $bg;
-  border-radius: 42px;
+  border-radius: 40px;
   border: $brd;
   font-size: $fs;
 }
@@ -59,6 +59,7 @@ section {
 
     .nav_items {
       display: flex;
+      text-transform: uppercase;
     }
   }
   .container {
@@ -290,6 +291,7 @@ footer {
   }
   .fot_mid {
     width: 33.33%;
+    text-transform: uppercase;
   }
   .fot_right {
     width: 33.33%;
